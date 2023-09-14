@@ -8,6 +8,7 @@ public class Turret : MonoBehaviour
     public GameObject bulletPrefab;
 
     private bool canShoot;
+    public float shootDelay;
 
     private void Start()
     {
@@ -25,8 +26,17 @@ public class Turret : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                canShoot = false;
                 Instantiate(bulletPrefab);
+                bulletPrefab.transform.position = transform.position;
+                StartCoroutine(Delay());
             }
         }
+    }
+
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(shootDelay / 10);
+        canShoot = true;
     }
 }

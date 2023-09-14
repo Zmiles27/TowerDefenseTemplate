@@ -295,7 +295,7 @@ Transform:
   m_GameObject: {fileID: 192276942}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.6, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 0.5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1216761222}
@@ -765,7 +765,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.665468
+  orthographic size: 4.599946
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1115,7 +1115,7 @@ Transform:
   m_GameObject: {fileID: 1205510305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 35.369865, y: 35.604027, z: 40}
+  m_LocalScale: {x: 52.637432, y: 47.271465, z: 40}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 203481161}
@@ -1197,7 +1197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216761221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1606,42 +1606,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2778946074228573327, guid: aa859040eb2d9e94f8e98acd668f591c, type: 3}
   spawnDelay: 4
-  downRoute1:
-  - {fileID: 1443668084}
-  - {fileID: 2061172728}
-  - {fileID: 875840566}
-  - {fileID: 1047486430}
-  - {fileID: 1217363445}
-  - {fileID: 104727815}
-  - {fileID: 12493197}
-  - {fileID: 1877285509}
-  downRoute2:
-  - {fileID: 1443668084}
-  - {fileID: 2061172728}
-  - {fileID: 875840566}
-  - {fileID: 1047486430}
-  - {fileID: 1036521736}
-  - {fileID: 2050891256}
-  - {fileID: 12493197}
-  - {fileID: 1877285509}
-  upRoute1:
-  - {fileID: 1233736681}
-  - {fileID: 875840566}
-  - {fileID: 1047486430}
-  - {fileID: 1217363445}
-  - {fileID: 104727815}
-  - {fileID: 12493197}
-  - {fileID: 1877285509}
-  upRoute2:
-  - {fileID: 1233736681}
-  - {fileID: 875840566}
-  - {fileID: 1047486430}
-  - {fileID: 1036521736}
-  - {fileID: 2050891256}
-  - {fileID: 12493197}
-  - {fileID: 1877285509}
-  speed: 5
-  routeIndex: 0
 --- !u!1 &1718090625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,6 +1883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8153179077277054040, guid: 47debc29b17516d41877d32a538ed28b, type: 3}
+  shootDelay: 8
 --- !u!1 &1983600412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,7 +2055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136928584}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2137,7 +2102,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
   m_FlipX: 0
