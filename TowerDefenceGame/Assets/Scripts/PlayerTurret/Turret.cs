@@ -23,7 +23,7 @@ public class Turret : MonoBehaviour
         bulletPrefab.transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePos - transform.position);
 
         if (canShoot == true)
-        {
+        {       
             if (Input.GetMouseButtonDown(0))
             {
                 canShoot = false;

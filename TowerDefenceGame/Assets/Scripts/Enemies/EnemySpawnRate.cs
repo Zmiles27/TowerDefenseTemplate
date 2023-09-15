@@ -7,7 +7,7 @@ using UnityEngine.XR;
 public class EnemySpawnRate : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public int spawnDelay;
+    public float spawnDelay;
     private bool canSpawn;
 
 
@@ -30,7 +30,6 @@ public class EnemySpawnRate : MonoBehaviour
     IEnumerator Delay()
     {
         Instantiate(enemyPrefab);
-        yield return new WaitForSeconds(spawnDelay);
         yield return new WaitForSeconds(spawnDelay);
         canSpawn = true;
     }

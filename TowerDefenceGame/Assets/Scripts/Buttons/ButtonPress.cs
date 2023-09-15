@@ -6,13 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class ButtonPress : MonoBehaviour
 {
-public void Play()
+    public void Play()
     {
         SceneManager.LoadScene("GameScene");
     }
 
-public void Exit()
-{
-    Application.Quit();
-}
+    public void HowToPlay()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }

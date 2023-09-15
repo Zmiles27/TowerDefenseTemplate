@@ -32,12 +32,12 @@ public class EnemyMovent : MonoBehaviour
         // Chooses spawn Location
         if (routeIndex <= 1)
         {
-            transform.position = new Vector3(-9, -4, -3);
+            transform.position = new Vector3(-9, -3, -3);
         }
 
         else if (routeIndex >= 2)
         {
-            transform.position = new Vector3(-9, 4, -3);
+            transform.position = new Vector3(-9, 3, -3);
         }
     }
 
