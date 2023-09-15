@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BulletShot : MonoBehaviour
 {
-    ScoreCounter score;
+    Counters score;
     public float bulletSpeed;
     void Start()
     {
-        score = FindObjectOfType<ScoreCounter>();
+        score = FindObjectOfType<Counters>();
         Destroy(gameObject, 2);
     }
 
@@ -22,6 +22,7 @@ public class BulletShot : MonoBehaviour
         if(other.tag == "Enemy")
         {
             score.EnemyKillScore();
+            score.EnemyKillPoints();
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
