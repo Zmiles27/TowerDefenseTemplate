@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2778946074228573326}
   - component: {fileID: -3474059373248896970}
   - component: {fileID: 5888376503125105359}
+  - component: {fileID: 1947677421426732590}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -62,6 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787c63f36700c54429a668ced752b162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerHealth: {fileID: 0}
   downRoute1:
   - {fileID: 8988502013189487216, guid: 6ed5b02852876b245aa04f523095232c, type: 3}
   - {fileID: 2613098910964140004, guid: 0d08ea35ca6359743946e302c0e39d2f, type: 3}
@@ -98,6 +100,27 @@ MonoBehaviour:
   - {fileID: 6815790716420155618, guid: 0cf5df49fe508374f81c4effaf609953, type: 3}
   routeIndex: 0
   speed: 4
+--- !u!50 &1947677421426732590
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778946074228573327}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6317699773433872249
 GameObject:
   m_ObjectHideFlags: 0

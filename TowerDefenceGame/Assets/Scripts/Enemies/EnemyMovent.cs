@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemyMovent : MonoBehaviour
 {
+    public TowerHealth towerHealth;
+
     public List<GameObject> downRoute1;
     public List<GameObject> downRoute2;
     public List<GameObject> upRoute1;
@@ -19,6 +22,8 @@ public class EnemyMovent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        towerHealth = FindObjectOfType<TowerHealth>();
+
         // List of Lists
         routes = new List<List<GameObject>>();
         routes.Add(downRoute1);
@@ -57,6 +62,14 @@ public class EnemyMovent : MonoBehaviour
             {
                 index++;
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collider.tag == "Tower")
+        {
+            towerHealth.TakeDemage(10);
         }
     }
 }

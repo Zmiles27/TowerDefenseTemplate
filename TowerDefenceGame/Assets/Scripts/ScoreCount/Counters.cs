@@ -14,7 +14,6 @@ public class Counters : MonoBehaviour
 
     private void Start()
     {
-        score = 0;
         scoreText.text = "Score: " + score;
     }
 

@@ -16,6 +16,11 @@ public class ButtonPress : MonoBehaviour
         SceneManager.LoadScene("HowToPlay");
     }
 
+    public void Menu()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
+
     public void Exit()
     {
         Application.Quit();
