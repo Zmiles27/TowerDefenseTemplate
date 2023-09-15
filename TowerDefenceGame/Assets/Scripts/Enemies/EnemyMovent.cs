@@ -37,7 +37,7 @@ public class EnemyMovent : MonoBehaviour
 
         else if (routeIndex >= 2)
         {
-            transform.position = new Vector3(-9, 3, -3);
+            transform.position = new Vector3(-9, 2, -3);
         }
     }
 
