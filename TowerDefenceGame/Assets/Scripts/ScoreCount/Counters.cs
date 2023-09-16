@@ -9,11 +9,13 @@ public class Counters : MonoBehaviour
     public TextMeshProUGUI pointText;
     
 
-    public int score = 0;
-    public int points = 0;
+    public int score;
+    public int points;
 
     private void Start()
     {
+        score = 0;
+        points = 0;
         scoreText.text = "Score: " + score;
     }
 
@@ -27,5 +29,10 @@ public class Counters : MonoBehaviour
     {
         points += 1;
         pointText.text = "Points: " + points;
+    }
+
+    public void DisplayScore()
+    {
+        scoreText.text = "Score: " + score;
     }
 }
