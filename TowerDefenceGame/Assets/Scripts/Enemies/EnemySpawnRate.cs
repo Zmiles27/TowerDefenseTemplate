@@ -10,9 +10,6 @@ public class EnemySpawnRate : MonoBehaviour
     public float spawnDelay;
     private bool canSpawn;
 
-
-
-
     private void Start()
     {
         canSpawn = true;
@@ -25,13 +22,21 @@ public class EnemySpawnRate : MonoBehaviour
             canSpawn = false;
             StartCoroutine(Delay());
         }
+        if (spawnDelay <= 1)
+        {
+            spawnDelay= 1;
+        }
     }
 
     IEnumerator Delay()
     {
         Instantiate(enemyPrefab);
-        yield return new WaitForSeconds(spawnDelay);
+        yield return new WaitForSeconds(spawnDelay / 10);
         canSpawn = true;
     }
 
+    public void ChangeDelay()
+    {
+        spawnDelay -= 1;
+    }
 }

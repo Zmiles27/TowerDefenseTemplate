@@ -5,7 +5,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemyMovent : MonoBehaviour
 {
-    public TowerHealth towerHealth;
+    private TowerHealth towerHealth;
 
     public List<GameObject> downRoute1;
     public List<GameObject> downRoute2;
@@ -19,7 +19,7 @@ public class EnemyMovent : MonoBehaviour
 
     public List<List<GameObject>> routes;
     public float speed = 2;
-    // Start is called before the first frame update
+
     void Start()
     {
         towerHealth = FindObjectOfType<TowerHealth>();
@@ -46,7 +46,6 @@ public class EnemyMovent : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Checks For all Waypoints
@@ -65,11 +64,13 @@ public class EnemyMovent : MonoBehaviour
         }
     }
 
+    // drains tower health
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.tag == "Tower")
         {
-            towerHealth.TakeDemage(10);
+            Destroy(gameObject);
+            towerHealth.TakeDemage(5);
         }
     }
 }

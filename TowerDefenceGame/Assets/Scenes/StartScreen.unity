@@ -1089,7 +1089,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tower Defence Game Game
+  m_text: "Tower of \ndefending"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e0d58e2fb7458ff4ca6c4bfde27c1dbc, type: 2}
   m_sharedMaterial: {fileID: 3595816913028202881, guid: e0d58e2fb7458ff4ca6c4bfde27c1dbc, type: 2}
@@ -1201,7 +1201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 426.4, y: -110.2}
+  m_AnchoredPosition: {x: 383, y: -115}
   m_SizeDelta: {x: 249.0579, y: 78.6737}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592133288
@@ -1224,7 +1224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: V 0. 0. 1
+  m_text: V 0. 1. 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e0d58e2fb7458ff4ca6c4bfde27c1dbc, type: 2}
   m_sharedMaterial: {fileID: 3595816913028202881, guid: e0d58e2fb7458ff4ca6c4bfde27c1dbc, type: 2}
@@ -1336,7 +1336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 18.619995, y: -6.206}
+  m_AnchoredPosition: {x: 18.619995, y: -6.2059937}
   m_SizeDelta: {x: 235.8511, y: 198.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1599518785
