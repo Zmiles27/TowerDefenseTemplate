@@ -16,6 +16,7 @@ public class Counters : MonoBehaviour
     public int nextWaveAmount;
     public int score;
     public int points;
+    public int Prize;
 
     private void Start()
     {
@@ -29,6 +30,7 @@ public class Counters : MonoBehaviour
 
     public void Update()
     {
+        // Checks If player has hit amount of Enemies before going to next wave
         if (nextWave == nextWaveAmount)
         {
             nextWave= 0;
@@ -36,12 +38,14 @@ public class Counters : MonoBehaviour
         }
     }
 
+    // score + 10 every time you kill an enemy
     public void EnemyKillScore()
     {
         score += 10;
         scoreText.text = "Score: " + score;
     }
 
+    // points + 1 every time you kill an enemy
     public void EnemyKillPoints()
     {
         points += 1;
@@ -49,8 +53,13 @@ public class Counters : MonoBehaviour
         pointText.text = "Points: " + points;
     }
 
-    public void DisplayScore()
+    // Changes points when you buy Turret
+    public void BuyTurret()
     {
-        scoreText.text = "Score: " + score;
+        if(points >= Prize)
+        {
+            points -= Prize;
+            pointText.text = "Points: " + points;
+        }
     }
 }

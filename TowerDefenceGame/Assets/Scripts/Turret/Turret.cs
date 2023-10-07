@@ -20,15 +20,14 @@ public class Turret : MonoBehaviour
         //Aims Turret at mousePointer
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePos - transform.position);
-        bulletPrefab.transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePos - transform.position);
 
+        //Shoots Bullet In Direction of Enemy
         if (canShoot == true)
         {       
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(1))
             {
                 canShoot = false;
-                Instantiate(bulletPrefab);
-                bulletPrefab.transform.position = transform.position;
+                Instantiate(bulletPrefab, this.transform.position, Quaternion.LookRotation(Vector3.forward, mousePos - transform.position));
                 StartCoroutine(Delay());
             }
         }
