@@ -3,9 +3,8 @@ Dit is een template wat door jullie te gebruiken is voor het juist inleveren van
 
 Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
-
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
+![GameScreenshotStartScreen](readmeVisuals/startScherm.png)
+![GameScreenshotGameplay](readmeVisuals/Gameplay.png)
 
 
 ## Product 1: "DRY SRP Scripts op GitHub"
@@ -38,7 +37,7 @@ De build van je game bevat textures, sprites en sprite animations(bijv particles
 
 Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
 
-![Textures Sprites](/TowerDefenceTemplate/readmeVisuals/Gameplay.png)
+![Textures Sprites](readmeVisuals/texturesSprites.gif)
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
