@@ -20,6 +20,10 @@ public class TowerHealth : MonoBehaviour
         {
             SceneManager.LoadScene("DeathScene");
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("StartScreen");
+        }
     }
 
     public void TakeDemage(float demage)
