@@ -5,10 +5,12 @@ using UnityEngine;
 public class BulletShot : MonoBehaviour
 {
     Counters score;
+    // TurretSpawn turretSpawn; 
     public float bulletSpeed;
     void Start()
     {
         score = FindObjectOfType<Counters>();
+        // turretSpawn = FindObjectOfType<TurretSpawn>();
         Destroy(gameObject, 2);
     }
 

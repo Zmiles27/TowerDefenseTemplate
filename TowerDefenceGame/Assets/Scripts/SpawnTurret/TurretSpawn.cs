@@ -10,21 +10,18 @@ public class TurretSpawn : MonoBehaviour
 
     public GameObject AutoTurretPrefab;
 
-    private bool canPlace = true;
-
     private void Start()
     {
         points = FindObjectOfType<Counters>();
-        canPlace= true;
     }
 
     private void OnMouseDown()
     {
-        if (canPlace == true)
+        if (points.points >= points.prize)
         {
             points.BuyTurret();
             Instantiate(AutoTurretPrefab, this.transform.position, Quaternion.identity);
-            canPlace = false;
+            points.points -= points.prize;
         }
     }
 }

@@ -12,9 +12,9 @@ public class EnemyMovent : MonoBehaviour
     public List<GameObject> upRoute1;
     public List<GameObject> upRoute2;
 
-    int index = 0;
+    private int index = 0;  
 
-    [SerializeField] int routeIndex = 0;
+    private int routeIndex = 0;
 
 
     public List<List<GameObject>> routes;

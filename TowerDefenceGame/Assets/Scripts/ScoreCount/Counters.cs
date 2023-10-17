@@ -16,7 +16,7 @@ public class Counters : MonoBehaviour
     public int nextWaveAmount;
     public int score;
     public int points;
-    public int Prize;
+    public int prize;
 
     private void Start()
     {
@@ -35,6 +35,13 @@ public class Counters : MonoBehaviour
         {
             nextWave= 0;
             spawnRate.ChangeDelay();
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Debug.Log("You Cheater");
+            points += 100;
+            pointText.text = "Points: " + points;
         }
     }
 
@@ -56,9 +63,9 @@ public class Counters : MonoBehaviour
     // Changes points when you buy Turret
     public void BuyTurret()
     {
-        if(points >= Prize)
+        if(points >= prize)
         {
-            points -= Prize;
+            points -= prize;
             pointText.text = "Points: " + points;
         }
     }

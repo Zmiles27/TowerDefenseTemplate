@@ -3278,7 +3278,7 @@ MonoBehaviour:
   nextWaveAmount: 5
   score: 0
   points: 0
-  Prize: 5
+  prize: 0
 --- !u!1 &1448120428
 GameObject:
   m_ObjectHideFlags: 0
