@@ -3,6 +3,7 @@
 **Turret Tactics** is een **Top Down Tower Defence Game**, In turret Tactics moet je zo'n hoog mogelijke **Score** krijgen door te schieten op vijanden, met **Points** kun je turrets kopen die je kan plaatsen op de kleine torens met **Left Click**. Ook heb je een turret die je zelf moet besturen aan de rechter kant van het scherm deze turret moet je aimen met je **Mouse Curser**, je Kan deze turret laten schieten met **Right Click** Als de enemies bij je grote toren komen "Toren Rechts" verlies je **Health** en als al je Health op is heb je verloren.
 
 ![GameScreenshotStartScreen](readmeVisuals/startScherm.png)
+
 ![GameScreenshotGameplay](readmeVisuals/Gameplay.png)
 
 
@@ -42,34 +43,22 @@ One Page Design:
     
     plaats link hier
 
-*  **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
+**Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
 
 *Mijn Torens hebben eerst niet de mogelijkheid om the schieten omdat er geen turret op staat maar als je genoeg punten hebt schiet de toren op de enemies als de enemies dichtbij genoeg staan* 
 
-*  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
+**Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
 
 *Mijn vijanden kunnen worden neergeschoten door de bestuurbaren turret of door de automatische turrets, Ook volgen deze vijanden 4 verschilende paden waardoor het moeilijk is te voorspellen waar je moet schieten*
 
 
-*  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
+**Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
 
 *elke keer dat je vijf vijanden neer schiet "Spawnen" de vijanden sneller waardoor de game steeds moeilijker wordt*
 
-*  **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
+**Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
 
 *De "Main Tower" heeft een "Health Bar System" die aangeeft hoeveel "Health" je nog hebt als deze "Health Bar" op is ben je af en moet je opnieuw beginnen*
-
-*  **Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
-
-*Onderbouwing hier...*
-
-*  **Een “upgrade” systeem om je torens te verbeteren.**
-
-*Onderbouwing hier...*
-
-*  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
-
-*Onderbouwing hier...*
 
 ## Product 7: Class Diagram voor volledige codebase 
 het werken aan een **class diagram** was erg everzichtelijk en gaf mij ook goed aan waar ik code kon verbetere.
