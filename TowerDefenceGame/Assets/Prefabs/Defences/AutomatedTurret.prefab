@@ -265,4 +265,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8153179077277054040, guid: 47debc29b17516d41877d32a538ed28b, type: 3}
   enemyPrefab: {fileID: 2778946074228573327, guid: aa859040eb2d9e94f8e98acd668f591c, type: 3}
-  shootDelay: 14
+  shootDelay: 20

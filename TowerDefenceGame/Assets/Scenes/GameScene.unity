@@ -290,6 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &187794155
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,6 +364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &192276942
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &307755386
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &368445429
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,6 +954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &471997350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,6 +1028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &485422554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,6 +1816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &958984322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,6 +2033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!4 &1036521737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 95883499419236970, guid: bce581ea47b70d647a522372560234fb, type: 3}
@@ -2109,6 +2117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &1061509894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,6 +2403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &1137525375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,6 +2856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &1270725168
 GameObject:
   m_ObjectHideFlags: 0
@@ -3106,6 +3117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &1407692770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3278,7 +3290,7 @@ MonoBehaviour:
   nextWaveAmount: 5
   score: 0
   points: 0
-  prize: 0
+  prize: 10
 --- !u!1 &1448120428
 GameObject:
   m_ObjectHideFlags: 0
@@ -3630,6 +3642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &1613872914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,6 +4253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoTurretPrefab: {fileID: 8491411630652522539, guid: 195f94f201a362b43b895340cca8a7cc, type: 3}
+  prize: 10
 --- !u!1 &1847152012
 GameObject:
   m_ObjectHideFlags: 0

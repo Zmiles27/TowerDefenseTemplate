@@ -40,7 +40,7 @@ public class Counters : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             Debug.Log("You Cheater");
-            points += 100;
+            points += 25;
             pointText.text = "Points: " + points;
         }
     }

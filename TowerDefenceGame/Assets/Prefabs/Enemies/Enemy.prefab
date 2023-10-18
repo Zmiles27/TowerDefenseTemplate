@@ -97,8 +97,7 @@ MonoBehaviour:
   - {fileID: 7032118331666144060, guid: 916f0c3cf294ba9458a7852abe14dbae, type: 3}
   - {fileID: 6570073791340062332, guid: 15b9ad2a7d202fc40822433b65cc4560, type: 3}
   - {fileID: 6815790716420155618, guid: 0cf5df49fe508374f81c4effaf609953, type: 3}
-  routeIndex: 0
-  speed: 7
+  speed: 10
 --- !u!50 &1947677421426732590
 Rigidbody2D:
   serializedVersion: 4

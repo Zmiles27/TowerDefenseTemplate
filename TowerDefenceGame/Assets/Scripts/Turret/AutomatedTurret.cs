@@ -16,7 +16,7 @@ public class AutomatedTurret : MonoBehaviour
 
     private void Start()
     {
-        canShoot= true;
+        canShoot = true;
     }
 
     private void OnTriggerStay2D()
@@ -27,19 +27,20 @@ public class AutomatedTurret : MonoBehaviour
         {
             return;
         }
-
         else
         {
             transform.rotation = Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position);
+
+            // shoots Bullets Towards Enemy
+            if (canShoot == true)
+            {
+                canShoot = false;
+                Instantiate(bulletPrefab, this.transform.position, Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position));
+                StartCoroutine(Delay());
+            }
         }
 
-        // shoots Bullets Towards Enemy
-        if (canShoot == true)
-        {
-            canShoot = false;
-            Instantiate(bulletPrefab, this.transform.position, Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position));
-            StartCoroutine(Delay());
-        }
+        
 
         IEnumerator Delay()
         {

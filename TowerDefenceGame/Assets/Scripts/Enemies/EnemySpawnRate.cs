@@ -22,9 +22,9 @@ public class EnemySpawnRate : MonoBehaviour
             canSpawn = false;
             StartCoroutine(Delay());
         }
-        if (spawnDelay <= 1)
+        if (spawnDelay < 2)
         {
-            spawnDelay= 1;
+            spawnDelay= 2;
         }
     }
 
