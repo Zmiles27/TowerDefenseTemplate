@@ -22,16 +22,16 @@ public class EnemySpawnRate : MonoBehaviour
             canSpawn = false;
             StartCoroutine(Delay());
         }
-        if (spawnDelay < 2)
+        if (spawnDelay < 3)
         {
-            spawnDelay= 2;
+            spawnDelay= 3;
         }
     }
 
     IEnumerator Delay()
     {
         Instantiate(enemyPrefab);
-        yield return new WaitForSeconds(spawnDelay / 10);
+        yield return new WaitForSeconds(spawnDelay * 10 * Time.deltaTime);
         canSpawn = true;
     }
 

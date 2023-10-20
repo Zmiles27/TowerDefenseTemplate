@@ -3821,7 +3821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2778946074228573327, guid: aa859040eb2d9e94f8e98acd668f591c, type: 3}
-  spawnDelay: 20
+  spawnDelay: 30
 --- !u!1 &1693894559
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,7 +4524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8153179077277054040, guid: 47debc29b17516d41877d32a538ed28b, type: 3}
-  shootDelay: 8
+  shootDelay: 12
 --- !u!1 &1956300537
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,7 +35,7 @@ public class Turret : MonoBehaviour
 
     IEnumerator Delay()
     {
-        yield return new WaitForSeconds(shootDelay / 10);
+        yield return new WaitForSeconds(shootDelay * 10 * Time.deltaTime);
         canShoot = true;
     }
 }
