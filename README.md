@@ -2,9 +2,11 @@
 
 **Turret Tactics** is een **Top Down Tower Defence Game**, In turret Tactics moet je zo'n hoog mogelijke **Score** krijgen door te schieten op vijanden, met **Points** kun je turrets kopen die je kan plaatsen op de kleine torens met **Left Click**. Ook heb je een turret die je zelf moet besturen aan de rechter kant van het scherm deze turret moet je aimen met je **Mouse Curser**, je Kan deze turret laten schieten met **Right Click** Als de enemies bij je grote toren komen "Toren Rechts" verlies je **Health** en als al je Health op is heb je verloren.
 
-![Game Screenshot Start Screen](readmeVisuals/startScherm.png)
+<img>
+    ![Game Screenshot Start Screen](readmeVisuals/startScherm.png)
 
-![Game Screenshot Gameplay](readmeVisuals/Gameplay.png)
+    ![Game Screenshot Gameplay](readmeVisuals/Gameplay.png)
+</img>
 
 
 ## Product 1: "DRY SRP Scripts op GitHub"
@@ -13,7 +15,7 @@
 
 Vergelijking:
 
-![Screenshot Of Not Very Dry Coding](readmeVisuals/NotVeryDry.png) ![Screenshot of Dry Coding](readmeVisuals/Dry.png)
+![Screenshot Of Not Very Dry Coding](readmeVisuals/notVeryDry.png) ![Screenshot of Dry Coding](readmeVisuals/Dry.png)
 
 ## Product 2: "Projectmappen op GitHub"
 
