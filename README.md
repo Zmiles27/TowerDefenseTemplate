@@ -20,27 +20,28 @@ Dit Script heeft drie public functions die worden aangeroepen uit andere scripts
 Dry Script Vergelijking:
 <div style="display:flex;">
     <img alt="Screenshot Of Not Very Dry Coding" 
-    style="width:50%;" src="readmeVisuals/NotVeryDry.png"/>
+    style="width:40%;" src="readmeVisuals/NotVeryDry.png"/>
     <img alt="Screenshot of dry coding" 
-    style="width:50%;" src="readmeVisuals/Dry.png"/>
+    style="width:40%;" src="readmeVisuals/Dry.png"/>
 </div>
 
 **SingleResponsible:**
 
 Om het Health Systeem aan te geven heb ik een [TowerHealthScript](/TowerDefenceGame/Assets/Scripts/Health/TowerHealth.cs) gemaakt, dit script managed alleen het Health Systeem. dit script gebruikt geen andere scripts maar moet soms wel worden opgeroepen uit andere scripts. wel gebruikt dit script een "Game Object/ Image" maar het oproepen van enkele unity objecten is niet aan te ontkomen.
 
+SingleResponsible Script:
 <img alt="Screenshot Of Not Very Dry Coding" 
-    style="width:100%;" src="readmeVisuals/singleResponsible.png"/>
+style="width:100%;" src="readmeVisuals/singleResponsible.png"/>
 
 ## Product 2: "Projectmappen op GitHub"
 
-Om te bewijzen dat ik een goede mappen structuur heb hier is de ROOT van mijn unity project
+Om te bewijzen dat ik een goede mappen structuur heb hier is de ROOT van mijn unity project.
 
 Dit is de [ROOT](/TowerDefenceGame/) folder van mijn unity project.
 
 ## Product 3: Build op Github
 
-de game Turret Tactics heeft **meerdere releases**, de meeste releases bestaan uit **kleine bug fixes** of **Dry Code** die niet een heel groot verschil aangeven van gameplay
+de game Turret Tactics heeft **meerdere releases**, de meeste releases bestaan uit **kleine bug fixes** of **Dry Code** die niet een heel groot verschil aangeven van gameplay.
 
 [Release Voorbeeld](https://github.com/Zmiles27/TowerDefenseTemplate/releases)
 
