@@ -46,13 +46,15 @@ de game Turret Tactics heeft **meerdere releases**, de meeste releases bestaan u
 ## Product 4: Game met Sprites(animations) en Textures 
 Mijn vijanden zijn rollende bowling ballen die een animatie hebben gekregen zodat de game er iets interesanter uit ziet.
 
-![Gif van gameplay](readmeVisuals/gameplay.gif)
+<img alt="Gif van gameplay"
+style="width:80%;" src="readmeVisuals/gameplay.gif">
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
 Ik was mijn scoreSystem aan het anpassen maar kon er niet achter komen waarom de score op het scherm niet omhoog ging. Daarom gebruikte ik breakpoints om de veriables te chekken. Hierdoor kwam ik er achter dat ik per ongeluk pointText had opgeschreven en niet scoreText
 
-![Screenshot of using breakpoints](readmeVisuals/DebuggingWithWayPoint.png)
+<img alt="Screenshot of Debugging"
+style="width:80%;" src="readmeVisuals/DebuggingWithWayPoint.png">
 
 ## Product 6: Game design met onderbouwing  
 
@@ -78,7 +80,7 @@ One Page Design:
 *De "Main Tower" heeft een "Health Bar System" die aangeeft hoeveel "Health" je nog hebt als deze "Health Bar" op is ben je af en moet je opnieuw beginnen*
 
 ## Product 7: Class Diagram voor volledige codebase 
-het werken aan een **class diagram** was erg everzichtelijk en gaf mij ook goed aan waar ik code kon verbetere.
+het werken aan een **class diagram** was erg overzichtelijk en gaf mij ook goed aan waar ik code kon verbeteren.
 
     plaats foto Class Diagram hier
 
