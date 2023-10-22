@@ -17,10 +17,8 @@ Dit Script heeft drie public functions die worden aangeroepen uit andere scripts
 
 Dry Script Vergelijking:
 <div style="display:flex;">
-    <img alt="Screenshot Of Not Very Dry Coding" 
-    style="width:40%;" src="readmeVisuals/NotVeryDry.png"/>
-    <img alt="Screenshot of dry coding" 
-    style="width:40%;" src="readmeVisuals/Dry.png"/>
+    <img alt="Screenshot Of Not Very Dry Coding" style="width:40%;" src="readmeVisuals/NotVeryDry.png"/>
+    <img alt="Screenshot of dry coding" style="width:40%;" src="readmeVisuals/Dry.png"/>
 </div>
 
 **SingleResponsible:**
@@ -28,8 +26,7 @@ Dry Script Vergelijking:
 Om het Health Systeem aan te geven heb ik een [TowerHealthScript](/TowerDefenceGame/Assets/Scripts/Health/TowerHealth.cs) gemaakt, dit script managed alleen het Health Systeem. dit script gebruikt geen andere scripts maar moet soms wel worden opgeroepen uit andere scripts. wel gebruikt dit script een "Game Object/ Image" maar het oproepen van enkele unity objecten is niet aan te ontkomen.
 
 SingleResponsible Script:
-<img alt="Screenshot Of Not Very Dry Coding" 
-style="width:80%;" src="readmeVisuals/singleResponsible.png"/>
+<img alt="Screenshot Of Not Very Dry Coding" style="width:80%;" src="readmeVisuals/singleResponsible.png"/>
 
 ## Product 2: "Projectmappen op GitHub"
 
@@ -46,22 +43,19 @@ de game Turret Tactics heeft **meerdere releases**, de meeste releases bestaan u
 ## Product 4: Game met Sprites(animations) en Textures 
 Mijn vijanden zijn rollende bowling ballen die een animatie hebben gekregen zodat de game er iets interesanter uit ziet.
 
-<img alt="Gif van gameplay"
-style="width:80%;" src="readmeVisuals/gameplay.gif">
+<img alt="Gif van gameplay" style="width:80%;" src="readmeVisuals/gameplay.gif">
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
 Ik was mijn scoreSystem aan het anpassen maar kon er niet achter komen waarom de score op het scherm niet omhoog ging. Daarom gebruikte ik breakpoints om de veriables te chekken. Hierdoor kwam ik er achter dat ik per ongeluk pointText had opgeschreven en niet scoreText
 
-<img alt="Screenshot of Debugging"
-style="width:80%;" src="readmeVisuals/DebuggingWithWayPoint.png">
+<img alt="Screenshot of Debugging" style="width:80%;" src="readmeVisuals/DebuggingWithWayPoint.png">
 
 ## Product 6: Game design met onderbouwing  
 
 One Page Design:
 
-<img alt="Screenshot van de one page"
-style="width:80%;" src="readmeVisuals/onePage.png">
+<img alt="Screenshot van de one page" style="width:80%;" src="readmeVisuals/onePage.png">
 
 **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
 
