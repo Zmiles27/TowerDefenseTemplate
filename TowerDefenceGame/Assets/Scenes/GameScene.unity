@@ -3287,7 +3287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1061509896}
   pointText: {fileID: 1961720170}
-  nextWaveAmount: 5
+  waveState: 0
   score: 0
   points: 0
   prize: 10
@@ -3821,7 +3821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2778946074228573327, guid: aa859040eb2d9e94f8e98acd668f591c, type: 3}
-  spawnDelay: 30
+  spawnDelay: 20
 --- !u!1 &1693894559
 GameObject:
   m_ObjectHideFlags: 0

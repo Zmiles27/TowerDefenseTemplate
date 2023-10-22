@@ -22,6 +22,7 @@ public class Counters : MonoBehaviour
     {
         spawnRate = FindObjectOfType<EnemySpawnRate>();
 
+        nextWave= 5;
         waveState = 0;
         score = 0;
         points = 0;
@@ -45,9 +46,9 @@ public class Counters : MonoBehaviour
         waveState += waveCount;
         pointText.text = "Points: " + points;
 
-        if (nextWave == waveState)
+        if (waveState == nextWave)
         {
-            nextWave = 0;
+            waveState = 0;
             spawnRate.ChangeDelay();
         }
     }
