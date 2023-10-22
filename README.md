@@ -81,12 +81,13 @@ One Page Design:
 ## Product 7: Class Diagram voor volledige codebase 
 het werken aan een **class diagram** was erg overzichtelijk en gaf mij ook goed aan waar ik code kon verbeteren.
 
-    plaats foto Class Diagram hier
+<img alt="Screenshot van class diagram" style="width:80%;" src="readmeVisuals/classDiagramTurretTactics.png">
 
 ## Product 8: Prototype test video
 Aan het begin van het project had ik gebrainstormd over een idee voor mijn video game. Mij idee was om de speler zelf ook mee te laten schieten om het spel iets interesanter te maken. vandaar dat ik een handmatigge turret heb gedesigned. het kunnen plaatsen van automatische turrets was ook een idee die ik had vanaf het begin later had ik nog besloten om ervoor te zorgen de de speler uiteindlijk niet meer turrets kon plaatsen om de gameplay iets moeilijker te maken.
 
     plaats Gameplay Video Hier
+
 ## Product 9: SCRUM planning inschatting  
 
 In het designing van de game was het moeilijk dingen te plannen maar heb ik erg mijn best gedaan om alles op schema te houden, mijn sprint was helaas op de laatste dag van de asignment dus ik kon niet veel daarna nog verbeteren.
