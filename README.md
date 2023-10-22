@@ -18,7 +18,7 @@ Dit Script heeft drie public functions die worden aangeroepen uit andere scripts
 Dry Script Vergelijking:
 <div style="display:flex;">
     <img alt="Screenshot Of Not Very Dry Coding" 
-    style="width:50%;" src="readmeVisuals/notVeryDry.png"/>
+    style="width:50%;" src="readmeVisuals/NotVeryDry.png"/>
     <img alt="Screenshot of dry coding" 
     style="width:50%;" src="readmeVisuals/Dry.png"/>
 </div>
