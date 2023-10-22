@@ -11,6 +11,8 @@
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
+**Dry:**
+
 Om het Score, Points en Wave Systeem van mijn game bij te houden heb ik een [CounterScript](/TowerDefenceGame/Assets/Scripts/ScoreCount/Counters.cs) aangemaakt. Dit script geeft door aan de canvas text hoeveel Score en Points de speler heeft. Ook geeft dit script informatie aan het script [EnemySpawnRate](/TowerDefenceGame/Assets/Scripts/Enemies/EnemySpawnRate.cs) die de spawn rate van de vijanden aangeeft.
 
 Dit Script heeft drie public functions die worden aangeroepen uit andere scripts, deze scripts gaven voordat ik mijn [CounterScript](/TowerDefenceGame/Assets/Scripts/ScoreCount/Counters.cs) had aangepast geen waardes mee waardoor ik elke keer in de functie moest opschrijven heoveel score, points en waveState er bij kwamen wat ervoor zorgde dat het script erg onoverzichtelijk was.
@@ -18,11 +20,17 @@ Dit Script heeft drie public functions die worden aangeroepen uit andere scripts
 Dry Script Vergelijking:
 <div style="display:flex;">
     <img alt="Screenshot Of Not Very Dry Coding" 
-    style="width:40%;" src="readmeVisuals/NotVeryDry.png"/>
+    style="width:50%;" src="readmeVisuals/NotVeryDry.png"/>
     <img alt="Screenshot of dry coding" 
-    style="width:40%;" src="readmeVisuals/Dry.png"/>
+    style="width:50%;" src="readmeVisuals/Dry.png"/>
 </div>
 
+**SingleResponsible:**
+
+Om het Health Systeem aan te geven heb ik een [TowerHealthScript](/TowerDefenceGame/Assets/Scripts/Health/TowerHealth.cs) gemaakt, dit script managed alleen het Health Systeem. dit script gebruikt geen andere scripts maar moet soms wel worden opgeroepen uit andere scripts. wel gebruikt dit script een "Game Object/ Image" maar het oproepen van enkele unity objecten is niet aan te ontkomen.
+
+<img alt="Screenshot Of Not Very Dry Coding" 
+    style="width:100%;" src="readmeVisuals/singleResponsible.png"/>
 
 ## Product 2: "Projectmappen op GitHub"
 
@@ -32,7 +40,7 @@ Dit is de [ROOT](/TowerDefenceGame/) folder van mijn unity project.
 
 ## Product 3: Build op Github
 
-de game Turret Tactics heeft **meerdere releases**, de meeste releases bestaan uit **kleine bug fixes** of **Dry Code** die niet een heel groot verschil aan gameplay tonen
+de game Turret Tactics heeft **meerdere releases**, de meeste releases bestaan uit **kleine bug fixes** of **Dry Code** die niet een heel groot verschil aangeven van gameplay
 
 [Release Voorbeeld](https://github.com/Zmiles27/TowerDefenseTemplate/releases)
 
