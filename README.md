@@ -59,8 +59,9 @@ style="width:80%;" src="readmeVisuals/DebuggingWithWayPoint.png">
 ## Product 6: Game design met onderbouwing  
 
 One Page Design:
-    
-    plaats link hier
+
+<img alt="Screenshot van de one page"
+style="width:80%;" src="readmeVisuals/onePage.png">
 
 **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
 
@@ -78,6 +79,10 @@ One Page Design:
 **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
 
 *De "Main Tower" heeft een "Health Bar System" die aangeeft hoeveel "Health" je nog hebt als deze "Health Bar" op is ben je af en moet je opnieuw beginnen*
+
+**Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
+
+*Als je een vijand neer schiet krijg je punten om torens mee te kunnen kopen*
 
 ## Product 7: Class Diagram voor volledige codebase 
 het werken aan een **class diagram** was erg overzichtelijk en gaf mij ook goed aan waar ik code kon verbeteren.
