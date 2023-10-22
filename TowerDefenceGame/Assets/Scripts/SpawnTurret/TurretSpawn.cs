@@ -6,7 +6,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class TurretSpawn : MonoBehaviour
 {
-    Counters points;
+    Counters count;
 
     public GameObject AutoTurretPrefab;
 
@@ -14,14 +14,14 @@ public class TurretSpawn : MonoBehaviour
 
     private void Start()
     {
-        points = FindObjectOfType<Counters>();
+        count = FindObjectOfType<Counters>();
     }
 
     private void OnMouseDown()
     {
-        if (points.points >= prize)
+        if (count.points >= prize)
         {
-            points.BuyTurret();
+            count.pointSystem(-prize);
             Instantiate(AutoTurretPrefab, this.transform.position, Quaternion.identity);
         }
     }

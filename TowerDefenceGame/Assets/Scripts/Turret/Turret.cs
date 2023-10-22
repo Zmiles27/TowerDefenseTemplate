@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Turret : MonoBehaviour
 {
@@ -30,6 +31,13 @@ public class Turret : MonoBehaviour
                 Instantiate(bulletPrefab, this.transform.position, Quaternion.LookRotation(Vector3.forward, mousePos - transform.position));
                 StartCoroutine(Delay());
             }
+        }
+
+
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("StartScreen");
         }
     }
 

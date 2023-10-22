@@ -13,7 +13,7 @@ public class Counters : MonoBehaviour
 
     private int nextWave;
 
-    public int nextWaveAmount;
+    public int waveState;
     public int score;
     public int points;
     public int prize;
@@ -22,51 +22,33 @@ public class Counters : MonoBehaviour
     {
         spawnRate = FindObjectOfType<EnemySpawnRate>();
 
-        nextWave = 0;
+        waveState = 0;
         score = 0;
         points = 0;
         scoreText.text = "Score: " + score;
     }
 
-    public void Update()
+    public void scoreSystem(int scoreCount)
     {
-        // Checks If player has hit amount of Enemies before going to next wave
-        if (nextWave == nextWaveAmount)
-        {
-            nextWave= 0;
-            spawnRate.ChangeDelay();
-        }
-
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            Debug.Log("You Cheater");
-            points += 25;
-            pointText.text = "Points: " + points;
-        }
-    }
-
-    // score + 10 every time you kill an enemy
-    public void EnemyKillScore()
-    {
-        score += 10;
+        score += scoreCount;
         scoreText.text = "Score: " + score;
     }
 
-    // points + 1 every time you kill an enemy
-    public void EnemyKillPoints()
+    public void pointSystem(int pointCount)
     {
-        points += 1;
-        nextWave += 1;
+        points += pointCount;
         pointText.text = "Points: " + points;
     }
 
-    // Changes points when you buy Turret
-    public void BuyTurret()
+    public void waveSystem(int waveCount)
     {
-        if(points >= prize)
+        waveState += waveCount;
+        pointText.text = "Points: " + points;
+
+        if (nextWave == waveState)
         {
-            points -= prize;
-            pointText.text = "Points: " + points;
+            nextWave = 0;
+            spawnRate.ChangeDelay();
         }
     }
 }
