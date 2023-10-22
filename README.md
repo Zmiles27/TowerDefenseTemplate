@@ -11,11 +11,17 @@
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
-    plaats links naar scripts die voldoen aan Dry en SRP
+Om het Score, Points en Wave Systeem van mijn game bij te houden heb ik een [CounterScript](/TowerDefenceGame/Assets/Scripts/ScoreCount/Counters.cs) aangemaakt. Dit script geeft door aan de canvas text hoeveel Score en Points de speler heeft. Ook geeft dit script informatie aan het script [EnemySpawnRate](/TowerDefenceGame/Assets/Scripts/Enemies/EnemySpawnRate.cs) die de spawn rate van de vijanden aangeeft.
 
-Vergelijking:
+Dit Script heeft drie public functions die worden aangeroepen uit andere scripts, deze scripts gaven voordat ik mijn [CounterScript](/TowerDefenceGame/Assets/Scripts/ScoreCount/Counters.cs) had aangepast geen waardes mee waardoor ik elke keer in de functie moest opschrijven heoveel score, points en waveState er bij kwamen wat ervoor zorgde dat het script erg onoverzichtelijk was.
 
-![Screenshot Of Not Very Dry Coding](readmeVisuals/notVeryDry.png) ![Screenshot of Dry Coding](readmeVisuals/Dry.png)
+Dry Script Vergelijking:
+<div style="display:flex;">
+    <img alt="Screenshot Of Not Very Dry Coding" style="width:50%;" src="readmeVisuals/notVeryDry.png"/>
+    <img alt="Screenshot of dry coding" 
+    style="width:50%;" src="readmeVisuals/Dry.png"/>
+</div>
+
 
 ## Product 2: "Projectmappen op GitHub"
 
