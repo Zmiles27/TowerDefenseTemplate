@@ -13,7 +13,7 @@
 
 Vergelijking:
 
-![Screenshot Of Not Very Dry Coding](readmeVisuals/NotVeryDry.png)
+![Screenshot Of Not Very Dry Coding](readmeVisuals/NotVeryDry.png) ![Screenshot of Dry Coding](readmeVisuals/Dry.png)
 
 ## Product 2: "Projectmappen op GitHub"
 
@@ -33,11 +33,9 @@ de game Turret Tactics heeft **meerdere releases**, de meeste releases bestaan u
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
-    Plaats Screenshots hier en uitleg over debugging
+Ik was mijn scoreSystem aan het anpassen maar kon er niet achter komen waarom de score op het scherm niet omhoog ging. Daarom gebruikte ik breakpoints om de veriables te chekken. Hierdoor kwam ik er achter dat ik per ongeluk pointText had opgeschreven en niet scoreText
 
 ![Screenshot of using breakpoints](readmeVisuals/DebuggingWithWayPoint.png)
-
-[Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/issues/)
 
 ## Product 6: Game design met onderbouwing  
 
