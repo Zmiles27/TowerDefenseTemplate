@@ -1,6 +1,6 @@
 # Turret Tactics Template
 
-**Turret Tactics** is een **Top Down Tower Defence Game**, In turret Tactics moet je zo'n hoog mogelijke **Score** krijgen door te schieten op vijanden, met **Points** kun je turrets kopen die je kan plaatsen op de kleine torens met **Left Click**. Ook heb je een turret die je zelf moet besturen aan de rechter kant van het scherm deze turret moet je aimen met je **Mouse Curser**, je Kan deze turret laten schieten met **Right Click** Als de enemies bij je grote toren komen "Toren Rechts" verlies je **Health** en als al je Health op is heb je verloren.
+**Turret Tactics** is een **Top Down Tower Defence Game**, In turret Tactics moet je zo'n hoog mogelijke **Score** krijgen door te schieten op vijanden, met **Points** kun je turrets kopen die je kan plaatsen op de kleine torens met **Left Click**. Ook heb je een turret die je zelf moet besturen aan de rechter kant van het scherm deze turret moet je richten met je **Mouse Curser**, je Kan deze turret laten schieten met **Right Click** Als de enemies bij je grote toren komen "Toren Rechts" verlies je **Health** en als al je Health op is heb je verloren.
 
 ![Game Screenshot Start Screen](readmeVisuals/startScherm.png)
 
@@ -86,7 +86,7 @@ het werken aan een **class diagram** was erg overzichtelijk en gaf mij ook goed 
 ## Product 8: Prototype test video
 Aan het begin van het project had ik gebrainstormd over een idee voor mijn video game. Mij idee was om de speler zelf ook mee te laten schieten om het spel iets interesanter te maken. vandaar dat ik een handmatigge turret heb gedesigned. het kunnen plaatsen van automatische turrets was ook een idee die ik had vanaf het begin later had ik nog besloten om ervoor te zorgen de de speler uiteindlijk niet meer turrets kon plaatsen om de gameplay iets moeilijker te maken.
 
-    plaats Gameplay Video Hier
+[Gameplay Video](https://youtu.be/fZnDIrYGW2I)
 
 ## Product 9: SCRUM planning inschatting  
 
